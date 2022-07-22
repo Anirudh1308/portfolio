@@ -14,8 +14,10 @@ section{
 }
 
 footer{
-    height: 500px;
+    padding: 80px;
     background-color: black;
+    color: white;
+    text-align: center;
 }
 
 nav{
@@ -137,6 +139,13 @@ h2{
     border-radius: 125px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 hr{
     margin-right: 20px;
     margin-left: 20px;
@@ -150,4 +159,10 @@ hr{
 a{
     text-decoration: none;
     color: white;
+}
+
+.form-submit{
+    height: 40px;
+    width: 270px;
+    margin-left: 15px;
 }
